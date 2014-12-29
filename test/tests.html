@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Tests</title>
+   <style type="text/css">
+      body { margin: 0; padding: 10px 20px 20px; font-family: Arial; font-size: 16px; overflow: visible; }
+      #map-container { padding: 6px; border-width: 1px; border-style: solid; border-color: #ccc #ccc #999 #ccc; -webkit-box-shadow: rgba(64, 64, 64, 0.5) 0 2px 5px;
+        -moz-box-shadow: rgba(64, 64, 64, 0.5) 0 2px 5px; box-shadow: rgba(64, 64, 64, 0.1) 0 2px 5px; width: 600px; position: absolute; left: -100000px; }
+      #map { width: 600px; height: 400px; }
+      .unittest-table { font-family: monospace; border: 1px; }
+      .unittest-pass { background: #6b3;}
+      .unittest-fail { background: #d55;}
+      .unittest-error { background: #a11;}
+      .unittest-xml-log {opacity:0; color: white;}
+      .test-area { display: none; }
+    </style>
+</head>
+<body>
+  <h1>Running tests</h1>
+  <script src="http://maps.googleapis.com/maps/api/js?v=3&amp;sensor=false"></script>
+  <script src="http://google-maps-utility-library-v3.googlecode.com/svn/tags/markerclustererplus/2.1.2/src/markerclusterer_packed.js"></script>
+  <script async type="application/dart" src="tests.dart"></script>
+  <script async src="packages/browser/dart.js"></script>
+  <div id="map-container"><div id="map"></div></div>
+</body>
+</html>

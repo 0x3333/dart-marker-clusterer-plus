@@ -1,0 +1,17 @@
+name: marker_clusterer_plus
+version: 1.0.0
+author: Tercio Gaudencio Filho <terciofilho [at] gmail.com>
+description: |
+  This is a dart library to use MarkerClustererPlus v2.1.2 from Google Maps Utility Library v3.
+homepage: https://github.com/0x3333/dart-marker-clusterer-plus
+environment:
+  sdk: '>=1.6.0 <2.0.0'
+dependencies:
+  google_maps: '>=2.0.0 <3.0.0'
+  js_wrapping: '>=0.1.1 <0.2.0'
+dev_dependencies:
+  browser: '>=0.9.0 <0.10.0'
+  editor_build: '>=0.0.4 <0.1.0'
+  js_wrapping_generator: '>=0.0.3 <0.1.0'
+  path: '>=0.9.0 <0.10.0'
+  unittest: any
