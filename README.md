@@ -1,7 +1,7 @@
 Dart MarkerClustererPlus
 ========================
 
-This is a dart library to use [MarkerClustererPlus v2.1.2 from Google Maps Utility Library v3](http://google-maps-utility-library-v3.googlecode.com/svn/tags/markerclustererplus/2.1.2/).
+This is a dart library to use [MarkerClustererPlus v2.1.2 from Google Maps Utility Library v3](https://github.com/googlemaps/js-marker-clusterer).
 This library uses [google_maps](https://github.com/a14n/dart-google-maps) library from Alexandre Ardhuin. 
 
 ## Usage ##
@@ -25,7 +25,8 @@ import 'package:marker_clusterer_plus/marker_clusterer_plus.dart';
 * Include the JavaScript implementation using a `script` tag.
 
 ```html
-<script src="http://google-maps-utility-library-v3.googlecode.com/svn/tags/markerclustererplus/2.1.2/src/markerclusterer_packed.js"></script>
+<!-- This actually doesn't work. You have to host this file somewhere in your server. -->
+<script src="https://raw.githubusercontent.com/googlemaps/js-marker-clusterer/gh-pages/src/markerclusterer.js"></script>
 ```
 
 Examples are available in [example](example) directory.
